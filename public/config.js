@@ -19,7 +19,7 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_HAS_PRIMARY_LOGO": "true",
   "VITE_HAS_SECONDARY_LOGO": "true",
   "VITE_ENABLED_MENUS": "Trading,Markets,Vaults,Leaderboard,Rewards,Portfolio",
-  "VITE_CUSTOM_MENUS": "Swap, https://solanicafinance.app/trading",
+  "VITE_CUSTOM_MENUS": "Swap, https://swap.solanicafinance.app",
   "VITE_ENABLE_SERVICE_DISCLAIMER_DIALOG": "false",
   "VITE_ENABLE_CAMPAIGNS": "false",
   "VITE_TELEGRAM_URL": "https://t.me/SolanicaFinance",
