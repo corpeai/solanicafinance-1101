@@ -15,12 +15,12 @@ import { OrderlyLocaleProvider } from "./orderlyLocaleProvider";
 import { registerPlugin } from "@orderly.network/orderbook-shimmer-plugin";
 import { registerFastPlaceOrderPlugin } from "@orderly.network/fast-place-order-plugin";
 
+
 const plugins = [
   registerFastPlaceOrderPlugin({
-    className: "my-fast-place-order", 
+    autoShowOnFullscreen: true, // optional, default: true
   }),
 ];
-
 
 const NETWORK_ID_KEY = "orderly_network_id";
 
