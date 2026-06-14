@@ -18,7 +18,7 @@ import { registerFastPlaceOrderPlugin } from "@orderly.network/fast-place-order-
 const plugins = [
   registerFastPlaceOrderPlugin({
     autoShowOnFullscreen: true,
-    registerOrderbookShimmerPlugin,
+    registerOrderbookShimmerPlugin
   }),
   
 ];
