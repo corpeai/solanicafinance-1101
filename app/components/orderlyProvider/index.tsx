@@ -17,15 +17,10 @@ import { registerFastPlaceOrderPlugin } from "@orderly.network/fast-place-order-
 
 const plugins = [
   registerFastPlaceOrderPlugin({
-    autoShowOnFullscreen: true, 
-  }),
-];
-
-const plugins = [
-  registerOrderbookShimmerPlugin({ animationHighlightColor: "rgba(255, 200, 100, 0.25)",
+    autoShowOnFullscreen: true, registerOrderbookShimmerPlugin({ animationHighlightColor: "rgba(255, 200, 100, 0.25)",
           stripedRowBackgroundColor: "rgb(var(--oui-color-line) / 0.03)", 
   }),
-];  
+];
 
 const NETWORK_ID_KEY = "orderly_network_id";
 
