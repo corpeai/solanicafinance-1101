@@ -13,7 +13,7 @@ import { createSymbolDataAdapter } from "@/utils/symbol-filter";
 import ServiceDisclaimerDialog from "./ServiceDisclaimerDialog";
 import { OrderlyLocaleProvider } from "./orderlyLocaleProvider";
 import { registerPlugin } from "@orderly.network/orderbook-shimmer-plugin";
-import { FastPlaceOrderPlugin } from "@orderly.network/fast-place-order-plugin";
+import { registerFastPlaceOrderPlugin } from "@orderly.network/fast-place-order-plugin";
 
 
 const plugins = [
