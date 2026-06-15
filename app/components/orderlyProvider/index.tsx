@@ -13,7 +13,6 @@ import { createSymbolDataAdapter } from "@/utils/symbol-filter";
 import ServiceDisclaimerDialog from "./ServiceDisclaimerDialog";
 import { OrderlyLocaleProvider } from "./orderlyLocaleProvider";
 import { registerPlugin } from "@orderly.network/orderbook-shimmer-plugin";
-import { registerFastPlaceOrderPlugin } from "@orderly.network/fast-place-order-plugin";
 
 
 const NETWORK_ID_KEY = "orderly_network_id";
@@ -121,7 +120,7 @@ const OrderlyProvider = (props: { children: ReactNode }) => {
     <OrderlyAppProvider
       brokerId={getRuntimeConfig("VITE_ORDERLY_BROKER_ID")}
       brokerName={getRuntimeConfig("VITE_ORDERLY_BROKER_NAME")}
-      plugins={FastPlaceOrderPlugin, OrderbookShimmerPlugin}
+      plugins={OrderbookShimmerPlugin}
       configStore={configStore}
       networkId={networkId}
       onChainChanged={onChainChanged}
